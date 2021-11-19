@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type">
+    <meta charset="UTF-8">
+    <meta name="language" content="Dutch">
+    <meta name="author" content="Dragan Bijelic">
+    <title>testarray</title>
+</head>
+<body>
+    <script>
+        var testarray = new Array('een', 'twee', '3', 'vier')
+        console.log('lab03 array-object: testarray: ' + testarray);
+
+        testarray.push('5');
+        console.log('resultaat van push: ' + testarray);
+
+        console.log('Datatype van het vijfde ellement: ' + typeof testarray[4]);
+
+        testarray.pop();
+        console.log('verwijder het vijfde ellement; ' + testarray);
+    </script>
+</body>
+</html>

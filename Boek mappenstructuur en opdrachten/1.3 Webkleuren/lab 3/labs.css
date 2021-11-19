@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(187, 34, 187);
+    width: 100%;
+    margin: 0 0 0 0;
+}
+#Div1 {
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+    width:80%;
+    height: 80px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    background-color: rgb(59, 177, 59);
+}
+#Div2 {
+    box-shadow: 4px 4px 10px;
+    width: 80%;
+    height: 220px;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    text-align: center;
+    background-color: rgb(59, 177, 59);
+
+    display: flex;
+    flex-direction: column;
+}
+#Div3 {
+    box-shadow: 4px 4px 10px;
+    width: 80%;
+    height: 150px;
+    font-size: 30px;
+    margin-left: 3%;
+    text-align: center;
+    background-color: rgb(51, 219, 51);
+}
+#Div4 { 
+    box-shadow: 4px 4px 10px;
+    width: 80%;
+    height: 100px;
+    font-size: 40px;
+    margin-left: 0%;
+    text-align: center;
+    background-color: rgb(85, 240, 85);
+}
+#Div4 p {
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+    color: red;
+}

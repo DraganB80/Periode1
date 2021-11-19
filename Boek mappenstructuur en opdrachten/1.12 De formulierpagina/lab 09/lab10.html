@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta http-equiv="content-type" 
+        content="text/html; 
+        charset=utf-8">
+        <link rel="stylesheet" href="lab10.css">
+        <title>Inschrijfformulier</title>
+    </head>
+    <body>
+        <main>
+            <form name="formulier"
+                action="mailto: postmaster@outdoorlife.com"
+                method="post">
+                <fieldset>
+                    <legend>Inschrijfformulier</legend>
+
+                    <select required naam="cursus" id="cursus">
+                        <option value="0">Kies een Cursus</option>
+                        <option value="Front end">Front end</option>
+                        <option value="Back end">Beck end</option> 
+                        <option value="Full stack">Full stack</option> 
+                    </select><br>
+
+                    <select required naam="lokatie" id="lokatie">
+                        <option value="0">Kies een Lokatie</option>
+                        <option value="Hengelo">Hengelo</option>
+                        <option value="Enschede">Enschede</option> 
+                        <option value="Almelo">Almelo</option> 
+                    </select><br>                    
+
+                    <label for="datum">Begindatum:</label><br>
+                    <input required type="date" name="datum" id="datum"><br>
+                    <label for="opleiding">Selecteer opleiding:</label>
+                    BOL <input type="radio" name="BOL" value="BOL">
+                    BBL <input type="radio" name="BBL" value="BBL">
+                    <br>
+
+                    <legend>Inschrijfformulier</legend>
+                    <input required type="text" id="naam"
+                        name="naam" placeholder="Voornaam"><br>
+                    <input required type="adres" id="adres"
+                        name="adres" placeholder="Adres"><br>
+                    <input required type="text" id="plaats"
+                        name="plaats" placeholder="Woonplaats"><br>
+                    <input required type="text" id="email"
+                        name="email" placeholder="E-mail"><br>
+
+                    <label for="voorkeur">Geef je voorkeur aan:</label><br>
+                    Avondschool:
+                    <input type="checkbox" name="Avondschool"><br>
+                    Weekendschool:
+                    <input type="checkbox" name="Weekendschool"><br>
+                    Geen voorkeur:
+                    <input type="checkbox" name="Geen voorkeur"><br>
+                    
+                </fieldset>
+            </form>
+        </main>
+        
+    </body>
+</html>

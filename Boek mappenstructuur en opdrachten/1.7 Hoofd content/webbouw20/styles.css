@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+    overflow: auto;
+}
+body {
+    width: 100%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    border: 1px solid;
+    overflow: inherit;
+    background-color: #fff;
+    text-align: center;
+    font-family: verdana, arial, sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+}
+a   {
+    text-decoration: none;
+}
+nav ul li a {
+    font-size: large;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+nav ul li a:hover {
+    letter-spacing: 5px;
+    background-color: gold;
+}
+nav ul li a:focus {
+    color:firebrick
+}
+h3 {
+    margin: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+nav {
+    width: 100%;
+}
+nav ul {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding-left: 0;
+}
+nav ul li {
+    list-style-type: none;
+    float: left;
+
+}
+nav ul li {
+    width: 25%;
+    background: linear-gradient(#9fb3b5, #e3e9ea, #7c9799);
+}
+#logo {
+    margin-top: 15px;
+    padding-top: 10%;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 3%;
+}
+#disc {
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.8;
+    width: 400px;
+    height: 400px;
+    margin-top: 10%;
+}
+
+#disc{
+    background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, grey 0%, black 100%, black 95%);
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, grey, black );
+    background-image: radial-gradient(45px 45px 45deg, circle cover, grey 0%, black 100%, black 95%);
+}
+
+/* standard */
+@keyframes revolutie {
+    from {transform: rotate(0deg);
+    }
+    to {transform: rotate(360deg);
+    }
+}
+
+#disc {
+    animation-name: revolutie;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

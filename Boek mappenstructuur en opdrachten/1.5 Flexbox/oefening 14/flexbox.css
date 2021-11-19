@@ -1,0 +1,23 @@
+container {
+    border: solid 1px;
+    border-radius: 5px;
+    width: 500px;
+    height: 250px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    border: solid 1px;
+    border-radius: 5px;
+    height: 75px;
+    line-height: 75px;
+    width: 75px;
+    font-family: verdana, arial, sans-serif;
+    color: #000;
+    font-size: 36px;
+    text-align: center;
+}

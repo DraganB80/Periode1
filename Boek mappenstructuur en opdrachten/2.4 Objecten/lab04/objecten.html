@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type">
+    <meta charset="UTF-8">
+    <meta name="language" content="Dutch">
+    <meta name="author" content="Dragan Bijelic">
+    <title>palet</title>
+</head>
+<body>
+    <script>
+        var palet = new Array('wit', 'blauw', 'groen', 'rood', 'zwart');
+        document.write('vaardigheid lab04: ' + palet + '<br>'); 
+
+        var nieuwekleur = prompt('Typ een nieuwe kleur in: ');
+        palet.push(nieuwekleur);
+        document.write('vaardigheid lab04: ' + palet + '<br>');
+        
+        var nieuwekleur = prompt('Typ een nieuwe kleur in: ')
+        palet.unshift(nieuwekleur);
+        document.write('vaardigheid lab04: ' + palet + '<br>');
+
+        palet.sort();
+        document.write('vaardigheid lab04: ' + palet + '<br>');
+
+        palet2 = palet('vaardigheid lab04: ' + splice (0,2));
+
+    </script>
+</body>
+</html>

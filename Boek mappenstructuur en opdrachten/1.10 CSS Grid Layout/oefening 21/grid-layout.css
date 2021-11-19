@@ -1,0 +1,21 @@
+.container {
+    border: solid 1px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 100px repeat(auto-fit, minmax(150px, 1fr));
+}
+
+header {
+    border: solid 1px;
+    border-radius: 5px;
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+header>div {
+    border: solid 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
